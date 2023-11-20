@@ -22,8 +22,6 @@ function saveData(e){
     const deleteBtn = document.createElement('input')
     const editBtn = document.createElement('input')
 
-    editBtn.style.height = 30;
-
     deleteBtn.type = 'button';
     deleteBtn.value = 'Delete Expense'
 
