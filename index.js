@@ -12,8 +12,7 @@ function saveData(e){
         "description": expenseDescription,
         "category": expenseCategory
     
-    };
-    
+    };    
     my_objSerialized = JSON.stringify(my_obj);
     localStorage.setItem(expenseAmount, my_objSerialized);
 
@@ -54,11 +53,7 @@ function saveData(e){
         localStorage.removeItem(expenseAmount);
     };
 
-
-
     document.getElementById('expense-amount').value = null;
     document.getElementById('expense-description').value = null;
     document.getElementById('expense-category').value = null;
-
-    
- }
+}
